@@ -8,7 +8,7 @@ var router = express.Router();
 module.exports = router;
 // route our homepage
 router.get('/', function(req, res){
-	res.render('pages/index');
+	res.render('pages/home');
 });
 
 //route for our about page
